@@ -1,0 +1,114 @@
+/* Section Entre em contato */
+.emContato {
+    padding: 0px 150px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.emContato h1 {
+    display: flex;
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    width: 350px;
+    margin-right: 150px;
+}
+
+.emContato p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.emContato-redes img {
+    margin: 30px 0px 0px 10px;
+}
+
+/* Section contato */
+label {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+    margin: 10px 0px 5px 0px;
+}
+.contato {
+    padding: 0px 150px;
+}
+
+.contato-item {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contato h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    max-width: 350px;
+    margin: 10px 150px 0px 0px;
+}
+
+.item-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.item-contato input{
+    all: unset;
+    background: rgb(234, 234, 235);
+    color: black;
+    font-size: 24px;
+    height: 40px; 
+    width: 40vw;
+}
+
+.item-contato textarea{
+    all: unset;
+    background: rgb(234, 234, 235);
+    color: black;
+    width: 40vw;
+}
+
+
+.item-contato input:hover, textarea:hover {
+    box-sizing: border-box;
+    background: rgb(234, 234, 235);
+    border: 2px solid black;
+} 
+
+.btn {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #203A4C;
+    border: 1px solid #203A4C;
+    padding: 10px 20px;
+    margin: 20px 0px 60px 0px;
+}
+
+button:hover {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #5FB4A2;
+    color: #FFFFFF;
+    border: 1px solid #5FB4A2; ;
+}
